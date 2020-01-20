@@ -9,7 +9,7 @@
   "plugins": [
     {
       "class": "extas\\components\\plugins\\PluginInstallBVProfiles",
-      "stage": "expand.install"
+      "stage": "extas.install"
     }
   ],
   "bv_profiles": [
