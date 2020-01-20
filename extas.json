@@ -1,5 +1,5 @@
 {
-  "name": "extas/bv-api",
+  "name": "extas/bv-profiles",
   "package_classes": [
     {
       "class": "extas\\components\\bv\\profiles\\ProfileRepository",
