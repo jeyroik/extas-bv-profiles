@@ -12,9 +12,9 @@ use extas\interfaces\bv\profiles\IProfileRepository;
  */
 class ProfileRepository extends Repository implements IProfileRepository
 {
-    protected $itemClass = Profile::class;
-    protected $name = 'bv_profiles';
-    protected $pk = Profile::FIELD__NAME;
-    protected $scope = 'extas';
-    protected $idAs = '';
+    protected string $itemClass = Profile::class;
+    protected string $name = 'bv_profiles';
+    protected string $pk = Profile::FIELD__NAME;
+    protected string $scope = 'extas';
+    protected string $idAs = '';
 }

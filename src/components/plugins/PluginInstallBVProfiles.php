@@ -12,9 +12,9 @@ use extas\interfaces\bv\profiles\IProfileRepository;
  */
 class PluginInstallBVProfiles extends PluginInstallDefault
 {
-    protected $selfItemClass = Profile::class;
-    protected $selfName = 'business value profile';
-    protected $selfSection = 'bv_profiles';
-    protected $selfUID = Profile::FIELD__NAME;
-    protected $selfRepositoryClass = IProfileRepository::class;
+    protected string $selfItemClass = Profile::class;
+    protected string $selfName = 'business value profile';
+    protected string $selfSection = 'bv_profiles';
+    protected string $selfUID = Profile::FIELD__NAME;
+    protected string $selfRepositoryClass = IProfileRepository::class;
 }

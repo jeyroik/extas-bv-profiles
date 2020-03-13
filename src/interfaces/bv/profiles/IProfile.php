@@ -13,9 +13,9 @@ use extas\interfaces\IItem;
  */
 interface IProfile extends IItem, IHasName, IHasDescription
 {
-    const SUBJECT = 'extas.bv.profile';
+    public const SUBJECT = 'extas.bv.profile';
 
-    const FIELD__WEIGHTS = 'weights';
+    public const FIELD__WEIGHTS = 'weights';
 
     /**
      * @param array $default

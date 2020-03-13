@@ -2,8 +2,8 @@
   "name": "jeyroik/extas-bv-profiles",
   "description": "Extas bv profiles package",
   "require": {
-    "jeyroik/extas-base": "*",
-    "jeyroik/extas-bv": "*"
+    "jeyroik/extas-base": "1.*",
+    "jeyroik/extas-bv": "1.*"
   },
   "autoload": {
     "psr-4": {
